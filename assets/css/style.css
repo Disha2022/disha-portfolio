@@ -9,6 +9,7 @@ body {
     font-family: 'Roboto Slab, Arial, sans-serif';
 }
 
+/*adding flex in header*/
 header {
     display: flex;
     flex-wrap:wrap;
@@ -33,23 +34,23 @@ header nav {
     margin: 7px 0;
 }
 
-header nav ul li {
-    display: inline;
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;   
 }
 
 header nav ul li a {
     margin: 0 30px;
-    font-size: 20px;
     font-weight: lighter;
+    font-size: 1.55vwx;
 
 }
-
-
-/* article {
-    padding: 20px;
-
-} */
-
+section {
+    padding: 60px;
+  }
 .reso {
     width: 150px;
     image-resolution: 200dpi;
