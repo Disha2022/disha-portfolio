@@ -8,3 +8,8 @@
     color: black;
     font-family: 'Roboto Slab, Arial, sans-serif';
   }
+
+  header {
+    padding: 20px 35px;
+    background-color: #95a0a1;
+  }
