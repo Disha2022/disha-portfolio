@@ -13,3 +13,30 @@
     padding: 20px 35px;
     background-color: #95a0a1;
   }
+  header h1 {
+    font-weight: bold;
+    display: inline;
+    margin: 0;
+    font-size: 28px;
+    color: #0e0d0d;
+  }
+  header a {
+    text-decoration: none;
+    color: #fafaf8;
+  }
+
+  header nav {
+    float: right;
+    margin: 7px 0;
+  }
+
+  header nav ul li {
+    display: inline;
+  }
+
+  header nav ul li a {
+    margin: 0 30px;
+    font-size: 20px;
+    font-weight: lighter;
+    
+  }
