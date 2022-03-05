@@ -10,13 +10,15 @@ body {
 }
 
 header {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
     padding: 20px 35px;
     background-color: #343c3d;
 }
 
 header h1 {
     font-weight: bold;
-    display: inline;
     margin: 0;
     font-size: 28px;
     color: #0e0d0d;
@@ -28,7 +30,6 @@ header a {
 }
 
 header nav {
-    float: right;
     margin: 7px 0;
 }
 
@@ -65,8 +66,8 @@ header nav ul li a {
     background-size: cover;
     background-position: center;
     position: relative;
-    height: 256px;
-
+    height: 250px;
+    image-resolution: 200dpi;
 }
 
 .container {
@@ -81,7 +82,8 @@ header nav ul li a {
 }
 .main-item img {
     
-    width: 60%;
+    width: 750px;
+    height: 300px;
     image-resolution: 200dpi;
     float: left;
 
