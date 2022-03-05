@@ -44,15 +44,20 @@ header nav ul li a {
 }
 
 
-article {
+/* article {
     padding: 20px;
 
-}
+} */
 
 .reso {
-    width: 100px;
-    image-resolution: 100dpi;
-
+    width: 150px;
+    image-resolution: 200dpi;
+    float: left;
+    border-top: 0;
+    border-right: 75px;
+    border-left: 75px;
+    border-bottom: 150px;
+    border-color: antiquewhite;
 }
 
 .intro {
@@ -61,4 +66,35 @@ article {
     background-position: center;
     position: relative;
     height: 256px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    flex-wrap: wrap;
+}
+
+.main-item {
+    height: 60%;
+}
+.main-item img {
+    
+    width: 60%;
+    image-resolution: 200dpi;
+    float: left;
+
+}
+
+.main-item h3 {
+    display: inline;
+    margin: 0;
+    font-size: 28px;
+    color: #0e0d0d;
+}
+
+.item {
+    height: 40%;
+    margin-bottom: 10%;
 }
