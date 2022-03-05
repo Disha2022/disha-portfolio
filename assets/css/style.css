@@ -2,41 +2,58 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
+}
 
-  body {
+body {
     color: black;
     font-family: 'Roboto Slab, Arial, sans-serif';
-  }
+}
 
-  header {
+header {
     padding: 20px 35px;
-    background-color: #95a0a1;
-  }
-  header h1 {
+    background-color: #343c3d;
+}
+
+header h1 {
     font-weight: bold;
     display: inline;
     margin: 0;
     font-size: 28px;
     color: #0e0d0d;
-  }
-  header a {
+}
+
+header a {
     text-decoration: none;
     color: #fafaf8;
-  }
+}
 
-  header nav {
+header nav {
     float: right;
     margin: 7px 0;
-  }
+}
 
-  header nav ul li {
+header nav ul li {
     display: inline;
-  }
+}
 
-  header nav ul li a {
+header nav ul li a {
     margin: 0 30px;
     font-size: 20px;
     font-weight: lighter;
-    
-  }
+
+}
+
+
+article {
+    padding: 20px;
+
+}
+
+.intro {
+    background-image: url('../images/cover.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 256px;
+}
+
