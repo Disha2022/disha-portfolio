@@ -49,6 +49,12 @@ article {
 
 }
 
+.reso {
+    width: 100px;
+    image-resolution: 100dpi;
+
+}
+
 .intro {
     background-image: url('../images/cover.jpg');
     background-size: cover;
@@ -56,4 +62,3 @@ article {
     position: relative;
     height: 256px;
 }
-
