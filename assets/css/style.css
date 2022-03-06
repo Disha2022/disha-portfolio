@@ -182,11 +182,11 @@ main h2 {
   justify-content: space-between;
   list-style: none;
   padding: 20px 35px;
+  align-items: center;
   background-color: white;
 }
 
 .contact-info h2 {
- 
   font-size: 160%;
   color: rgb(24, 63, 55);
   font-style: italic;
