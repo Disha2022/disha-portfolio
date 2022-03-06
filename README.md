@@ -1,4 +1,4 @@
-# disha-portfolio
+# Portfolio: Disha Barua
 ## Weekly Challenge 2: Advanced CSS Challenge: Professional Portfolio
 
 ## Author
@@ -46,8 +46,9 @@ Purpose of this project is to build a portfolio to showcase projects for securin
 
 
 ## Demo for Portfolio: Disha Barua
+![portfolio demo](./assets/images/Portfolio-of-Disha.gif)
 ![photo of the Webpage after modification.](./assets/images/portfolio-website.png)
-![portfolio demo](./Assets/images/Portfolio-of-Disha.gif)
+
 
 
 
