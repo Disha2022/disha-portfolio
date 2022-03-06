@@ -47,7 +47,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    /* margin: 0 30px; */
+
     font-weight: lighter;
     font-size: 1.55vwx;
 
@@ -63,6 +63,7 @@ section {
     margin-top: 2%;
     padding: 1%;
 }
+
 main h2 {
     font-size: 36px;
     color: rgb(24, 63, 55);
@@ -143,7 +144,7 @@ main h2 {
 
 
 .main-item {
-    flex: 0 0 400px;
+    flex-shrink: 0;
     padding: 10px;
     text-align: center;
     border-style: solid;
@@ -223,3 +224,17 @@ main h2 {
     margin: 0;
   }
   
+  /* @media screen and (max-width: 768px) {
+    header, main {
+      flex-direction: column;
+    }
+  
+    section {
+      padding-right: 0;
+    }
+  
+    aside {
+      width: 100%;
+      text-align: center;
+    }
+  } */
