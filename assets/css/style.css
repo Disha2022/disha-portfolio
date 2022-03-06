@@ -108,13 +108,12 @@ main h2 {
 .reso {
   width: 150px;
   image-resolution: 200dpi;
-  border-top: 0;
-  border-right: 75px;
-  border-left: 75px;
-  border-bottom: 150px;
-  border-color: antiquewhite;
-  border-width: 1mm;
+  border-color: white;
+  border-width: 8px;
+  border-style:solid;
+  box-shadow: inset;
 }
+
 
 .intro {
   align-items: flex-start;
@@ -139,13 +138,15 @@ main h2 {
 
 }
 
+
 .main-item {
   flex: 2 0 1;
   flex-wrap: wrap;
   flex-basis: 100%;
   padding: 1%;
   border-style: solid;
-  border-width: 1px;
+  border-width: 5px;
+  border-color: rgb(24, 63, 55);
 }
 
 .item {
@@ -220,6 +221,19 @@ footer h4 {
   font-size: 10px;
   margin: 0;
 }
+/* Adding Hover Elements */
+.item:hover {
+  color: white;
+  background-color:rgb(50, 117, 103);
+}
+.main-item:hover {
+  color: white;
+  background-color:rgb(50, 117, 103);
+}
+.reso:hover {
+  border-color: rgb(50, 117, 103);
+}
+
 
 /* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px) {
