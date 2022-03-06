@@ -42,8 +42,12 @@ header nav ul {
     list-style: none;
 }
 
+header nav ul li {
+    margin:0 1.5em;
+}
+
 header nav ul li a {
-    margin: 0 30px;
+    /* margin: 0 30px; */
     font-weight: lighter;
     font-size: 1.55vwx;
 
@@ -53,10 +57,18 @@ section {
     padding: 60px;
   }
 
-main {
+#flex {
     display: flex;
     flex-wrap: wrap;
     margin-top: 2%;
+    padding: 1%;
+}
+main h2 {
+    font-size: 36px;
+    color: rgb(24, 63, 55);
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
 }
 .about-me h2{
     font-size: 36px;
@@ -131,7 +143,7 @@ main {
 
 
 .main-item {
-    flex: 1 0 0;
+    flex: 0 0 400px;
     padding: 10px;
     text-align: center;
     border-style: solid;
